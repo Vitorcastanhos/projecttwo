@@ -9,6 +9,24 @@
   font-style: "Open Sans", sans-serif;
 }
 
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #89c5cc,
+    #a2cfdc,
+    #bcd8e8,
+    #d5e3f1,
+    #eaeef7,
+    #eaeef7,
+    #eaeef7,
+    #eaeef7,
+    #d5e3f1,
+    #bcd8e8,
+    #a2cfdc,
+    #89c5cc
+  );
+}
+
 .container {
   width: 1000px;
   margin: 65px auto 0;
@@ -60,15 +78,13 @@ h1 {
   line-height: 56px;
   font-weight: normal;
   color: #1f1534;
-
-  margin-bottom: 40px;
 }
 
 p {
   font-size: 14px;
   line-height: 28px;
 
-  margin-bottom: 40px;
+  margin: 40px 0;
 
   color: #7d7987;
 }
@@ -94,9 +110,12 @@ button {
 footer {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+  margin-top: 80px;
 }
 
-footer a { 
+footer a {
   font-weight: bold;
 }
 
